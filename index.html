@@ -1185,8 +1185,140 @@
         </div>
       </div>
 
+      <!-- ★ FEATURED PROJECT 3 — Flow Carreiras ★ -->
+      <div class="featured-project reveal">
+        <div class="featured-badge">PROJETO DESTAQUE</div>
+        <div class="featured-layout">
+
+          <!-- LEFT: descrição -->
+          <div class="featured-left">
+            <div class="project-subject">Full-Stack + Ciência de Dados • Projetão • CESAR School</div>
+            <h3>Flow Carreiras</h3>
+            <p class="project-desc">
+              Plataforma para <strong style="color:var(--text)">impulsionar a carreira de novos artistas de Recife</strong>,
+              conectando-os a mentores e oportunidades de mercado. Aplicação full-stack em produção com uma
+              <strong style="color:var(--text)">camada analítica robusta</strong> para entender engajamento,
+              perfis profissionais e otimizar a descoberta de talentos.
+            </p>
+            <ul class="project-highlights">
+              <li>Backend Java 17 / Spring Boot com autenticação JWT + BCrypt e JPA/Hibernate</li>
+              <li>Frontend React + Vite + Tailwind, PWA com Workbox, servido via Nginx</li>
+              <li>Dashboards de métricas (pessoais e globais) integrados à interface web</li>
+              <li>Módulo de Data Science: EDA, regressão de engajamento e classificação da Fila de Descoberta</li>
+              <li>Base analítica com 400 perfis simulados, migrações via Flyway</li>
+              <li>Stack containerizada com Docker Compose, deploy em Vercel + Render</li>
+            </ul>
+            <div class="project-links" style="margin-top:20px; display:flex; gap:12px;">
+              <a href="https://flowcarreiras.vercel.app" target="_blank" class="btn btn-primary" style="font-size:0.82rem; padding:10px 18px;">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Ver Deploy
+              </a>
+              <a href="https://github.com/antoniolaprov" target="_blank" class="btn btn-outline" style="font-size:0.82rem; padding:10px 18px;">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+
+          <!-- RIGHT: arquitetura full-stack + analytics -->
+          <div class="featured-right">
+            <h4>Arquitetura da Solução</h4>
+            <div class="pipeline-steps">
+              <div class="pipeline-step">
+                <div class="step-icon">⚛️</div>
+                <div class="step-info">
+                  <div class="step-name">Frontend</div>
+                  <div class="step-detail">React · Vite · Tailwind · PWA</div>
+                </div>
+              </div>
+              <div class="pipeline-step">
+                <div class="step-icon">☕</div>
+                <div class="step-info">
+                  <div class="step-name">Backend / API</div>
+                  <div class="step-detail">Spring Boot · JWT · JPA</div>
+                </div>
+              </div>
+              <div class="pipeline-step">
+                <div class="step-icon">🐘</div>
+                <div class="step-info">
+                  <div class="step-name">Banco de Dados</div>
+                  <div class="step-detail">PostgreSQL 16 · Flyway</div>
+                </div>
+              </div>
+              <div class="pipeline-step">
+                <div class="step-icon">📊</div>
+                <div class="step-info">
+                  <div class="step-name">Analytics & ML</div>
+                  <div class="step-detail">Streamlit · scikit-learn · pandas</div>
+                </div>
+              </div>
+              <div class="pipeline-step">
+                <div class="step-icon">🚀</div>
+                <div class="step-info">
+                  <div class="step-name">Deploy</div>
+                  <div class="step-detail">Docker · Vercel · Render</div>
+                </div>
+              </div>
+            </div>
+
+            <h4>Ciência de Dados</h4>
+            <div class="skill-tags" style="margin-bottom:20px; flex-wrap:wrap; display:flex; gap:8px;">
+              <span class="tag tag-blue">EDA</span>
+              <span class="tag tag-green">Regressão</span>
+              <span class="tag tag-purple">Classificação</span>
+              <span class="tag tag-yellow">Matriz de Confusão</span>
+              <span class="tag tag-orange">Curva ROC</span>
+            </div>
+
+            <h4>Stack</h4>
+            <div class="skill-tags" style="flex-wrap:wrap; display:flex; gap:8px;">
+              <span class="tag tag-orange">Java 17</span>
+              <span class="tag tag-green">Spring Boot</span>
+              <span class="tag tag-blue">React</span>
+              <span class="tag tag-purple">PostgreSQL</span>
+              <span class="tag tag-yellow">Streamlit</span>
+              <span class="tag tag-blue">Docker</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
       <!-- OUTROS PROJETOS -->
       <div class="projects-grid">
+
+        <!-- Projeto OdontoHub -->
+        <div class="project-card reveal">
+          <div class="project-header">
+            <div class="project-icon">🦷</div>
+            <div class="project-links">
+              <a href="https://github.com/antoniolaprov" target="_blank" class="project-link" title="GitHub">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-subject">Engenharia de Software • DDD • CESAR School</div>
+          <h3>OdontoHub</h3>
+          <p class="project-desc">
+            Sistema de <strong style="color:var(--text)">gestão de clínicas odontológicas</strong> com
+            <strong style="color:var(--text)">Domain-Driven Design</strong> e Arquitetura Hexagonal (Ports &amp; Adapters),
+            modelado por bounded contexts e validado com testes BDD automatizados.
+          </p>
+          <ul class="project-highlights">
+            <li>Modelagem com DDD e Context Mapper (10 bounded contexts)</li>
+            <li>7 padrões: Repository, Adapter, Data Mapper, Observer, Factory, DI, Facade</li>
+            <li>Domain Events integrando contextos (Estoque/Pagamento → Fluxo de Caixa)</li>
+            <li>Cenários BDD em Gherkin com Cucumber + JUnit</li>
+            <li>Minha contribuição: F4 — Fluxo de Caixa &amp; F5 — Controle de Estoque</li>
+          </ul>
+          <div class="skill-tags">
+            <span class="tag tag-orange">Java</span>
+            <span class="tag tag-green">Spring Boot</span>
+            <span class="tag tag-blue">DDD</span>
+            <span class="tag tag-yellow">Cucumber</span>
+            <span class="tag tag-purple">JUnit</span>
+          </div>
+        </div>
 
         <!-- Projeto 1 -->
         <div class="project-card reveal">
